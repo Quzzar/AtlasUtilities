@@ -1,0 +1,16 @@
+main: com.quzzar.atlas.atlasutilities.Main
+name: AtlasUtilities
+version: 1.1
+author: Quzzar
+description: A utilities plugin for Atlas!
+commands:
+  roll:
+    description: Rolls a dice!
+    usage: /roll <amount> <diceType>
+  displaycoords:
+    description: Displays coords on the side scoreboard
+    usage: /displaycoords
+permissions:
+  helpcommands.override:
+     description: Can use default help commands
+     default: op
